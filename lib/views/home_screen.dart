@@ -14,9 +14,15 @@ class MyWidget extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text("Dice Roll App"),
+              Text(
+                "Dice Roll App",
+                style: TextStyle(fontSize: 30, fontWeight: FontWeight.w700),
+              ),
               Image.asset(''),
-              ElevatedButton(onPressed: null, child: Text("Roll Dice")),
+              ElevatedButton(
+                onPressed: null,
+                child: Text("Roll Dice", style: TextStyle(fontSize: 25)),
+              ),
             ],
           ),
         ),
